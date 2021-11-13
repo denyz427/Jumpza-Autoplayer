@@ -35,7 +35,7 @@ while True:
             if cv2.contourArea(c)>50:
                 yp = int(cv2.minEnclosingCircle(c)[0][1]*5)+279
                 break
-    if(lastPos==1 and yp+75>thetot[1][1]):
+    if(lastPos==1 and yp+85>thetot[1][1]):
         speedMul+=1
     
     masknorm = cv2.inRange(sct_img, (35,175,111), (43,255,167))
