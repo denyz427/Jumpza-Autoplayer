@@ -1,3 +1,4 @@
+#Coded By denyz427 find me at https://github.com/denyz427
 import pyautogui as pyg
 import cv2
 import numpy as np
